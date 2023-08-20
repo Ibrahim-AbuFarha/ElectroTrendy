@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.category_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  cursor: pointer;
+  
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.category_container hr {
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  padding-top: 1em;
+  align-items: center;
+  width: 20%;
+  gap: 1em;
+  color: white;
+}
+
+.title > .redBox {
+  width: 20px;
+  height: 37px;
+  background-color:#f2ee1b;
+  border-radius: 6px;
+}
+
+.browse-by {
+  /* font-size: 2em; */
+  padding-top: 0.5em;
+}
+
+/* Section 2: Category */
+.category_container > .cate_Cards {
+  width: 100%;
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+ 
+}
+
+.cate_datail {
+  border: 1px solid rgb(179, 179, 179);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  height: 100px;
+  padding: 5em 0 !important;
+  background-color: #272525;
+  border-radius: .6rem;
+}
+
+.cate_datail > i {
+  font-size: 2em;
+
+  color: white ;
+}
+
+.cate_datail > p{
+
+  color: white;
+}
+
+.cate_datail:hover > i {
+
+  color: #f2ee1b;
+}
+
+.cate_datail:hover > p {
+
+  color: #f2ee1b;
+}
