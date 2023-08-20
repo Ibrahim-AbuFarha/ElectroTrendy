@@ -1,4 +1,7 @@
 create your mongodb 
+
+
+
 DATA_BASE = ur local db
 PORT = 7000
 PASSWORD= db password 
